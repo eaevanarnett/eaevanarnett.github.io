@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Portfolio</title>
+        <link rel="stylesheet" type="text/css" href="CSS/style.css">
+    </head>
+    <body>
+        <div class="navbar">
+            <a href="#home" class="active">HOME</a>
+            <a href="#about">ABOUT</a>
+            <a href="#github">GITHUB</a>
+            <a href="#contact">CONTACT</a>
+        </div>
+        <br>
+        <br>
+        <div id="home">
+            <video autoplay muted loop id="bulb-video">
+                <source src="Videos/video.mp4" type="video/mp4">
+                Your browser does not support HTML5 video.
+            </video>
+        </div>
+        <div class="video-text">
+            <h1>Hi.
+            <br>I'm Evan</h1>
+            <p class="center">
+                <q>The greatest doer must also be a great dreamer</q>
+                <br> -Theodore Roosevelt
+            </p>
+        </div>
+        <div class="container">
+            <div class="row" id="about">
+                <div class="column-2">
+                    <img src="Images/keyboard.jpg" alt="Keyboard">
+                </div>
+                <div class="column-1">
+                    <h1>About</h1>
+                    <p>
+                        Tenacity and timing infused with talent is what I can bring to the table.
+                        <br>I am a graduate of <a href="https://www.learncodinganywhere.com" target="_blank">The Tech Academy</a>'s Software Developer Bootcamp.
+                        <br>I am a full stack developer and would love an opportunity to contribute to your team's production!
+                    </p>
+                </div>
+            </div>
+            <div class="row" id="github">
+                <div class="column-1">
+                    <p class="center">
+                        <a href="https://github.com/eaevanarnett" target="_blank"><h1 class="drop">GitHub</h1></a>
+                    </p>
+                </div>
+                <div class="column-2">
+                    <img src="Images/code.jpg" alt="Code">
+                </div>
+            </div>
+        </div>
+        <div class="row" id="contact">
+            <div class="column-1 tall">
+                <h1>Contact</h1>
+                <img src="Images/bulb.jpg" alt="Bulb">
+                    <form action="https://formspree.io/f/xdoydpaa" method="post">
+                        <br><input type="text" placeholder="Name">
+                        <br><input type="text" id="email" name="message" placeholder="Email">
+                        <br><input type="text" id="message" name="message" placeholder="Message">
+                        <br><input type="submit" value="Submit">
+                    </form>
+            </div>
+        </div>
+    </body>
+</html>
